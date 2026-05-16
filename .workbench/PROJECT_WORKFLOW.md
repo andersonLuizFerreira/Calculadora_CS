@@ -1,13 +1,27 @@
 # PROJECT_WORKFLOW.md
 
-WORKFLOW_STATUS: aguardando_classificacao
+WORKFLOW_STATUS: classificacao_concluida
 
-WORKFLOW_COMPLEXITY: pendente
-WORKFLOW_SPECIALIZATION: pendente
-ACTIVE_WORKFLOW_PATH: pendente
+WORKFLOW_COMPLEXITY: simples
+WORKFLOW_SPECIALIZATION: desktop_windows_forms
 
 PROJECT_TECHNOLOGIES:
-- pendente_de_classificacao
+- C#
+- .NET
+- Windows Forms
+
+PROJECT_APPLICATION_TYPE: Desktop
+PROJECT_PLATFORMS:
+- Windows
+
+IMPLEMENTATION_AGENT: Codex
+
+RECOMMENDED_SPECIALIZED_WORKFLOW:
+C:\PROJETOS\AI_WORKBENCH\workflows\simple-projects\desktop\ENTRYPOINT.md
+
+RECOMMENDED_SPECIALIZED_WORKFLOW_STATUS: inexistente_na_wb
+
+ACTIVE_WORKFLOW_PATH: .workbench/workflows/project-engineering/ENTRYPOINT.md
 
 DEFAULT_ENGINEERING_WORKFLOW:
 C:\PROJETOS\AI_WORKBENCH\workflows\project-engineering\ENTRYPOINT.md
@@ -42,17 +56,17 @@ Quando o projeto possuir tecnologias registradas em PROJECT_TECHNOLOGIES, a IA d
 5. adaptar a engenharia a stack tecnologica real do projeto.
 ```
 
-AI_AUTONOMY_LEVEL: pendente_de_definicao
-AI_AUTONOMY_REASON: sera definido durante classificacao ou entrevista inicial
-AI_AUTONOMY_SCOPE: bootstrap estrutural concluido; demais escopos pendentes
-AI_AUTONOMY_LIMITS: nao implementar codigo de produto sem classificacao, engenharia e aprovacao aplicavel
-HUMAN_APPROVAL_REQUIRED_FOR: decisoes arquiteturais, escopo funcional, tecnologias, workflow ativo e autonomia local
+AI_AUTONOMY_LEVEL: baixa
+AI_AUTONOMY_REASON: decisao humana informada durante classificacao inicial
+AI_AUTONOMY_SCOPE: a IA pode executar apenas etapas explicitamente aprovadas e tarefas estruturais previstas pela AI_WORKBENCH
+AI_AUTONOMY_LIMITS: nao implementar codigo de produto, definir arquitetura, alterar escopo ou registrar regras funcionais sem aprovacao humana
+HUMAN_APPROVAL_REQUIRED_FOR: decisoes arquiteturais, escopo funcional, tecnologias, workflow ativo, alteracoes de governanca e inicio de implementacao
 
-CURRENT_ENGINEERING_STATUS: nao_iniciada
-CURRENT_DOCUMENTATION_STATUS: documentacao_minima_inicial_criada
+CURRENT_ENGINEERING_STATUS: aguardando_entrevista_inicial
+CURRENT_DOCUMENTATION_STATUS: classificacao_inicial_registrada
 CURRENT_IMPLEMENTATION_STATUS: nao_iniciada
 
-NEXT_EXPECTED_STEP: executar_classificacao_do_projeto
+NEXT_EXPECTED_STEP: executar_entrevista_inicial_de_engenharia
 
 CONTINUITY_RULE:
 A IA nao deve encerrar o fluxo apenas recomendando a proxima etapa.
@@ -89,4 +103,4 @@ Quando a etapa atual exigir engenharia e arquitetura, a IA deve:
 6. transferir o fluxo para o workflow local criado
 ```
 
-LAST_GOVERNANCE_UPDATE: 2026-05-15
+LAST_GOVERNANCE_UPDATE: 2026-05-16
