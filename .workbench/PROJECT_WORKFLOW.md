@@ -62,11 +62,11 @@ AI_AUTONOMY_SCOPE: a IA pode executar apenas etapas explicitamente aprovadas e t
 AI_AUTONOMY_LIMITS: nao implementar codigo de produto, definir arquitetura, alterar escopo ou registrar regras funcionais sem aprovacao humana
 HUMAN_APPROVAL_REQUIRED_FOR: decisoes arquiteturais, escopo funcional, tecnologias, workflow ativo, alteracoes de governanca e inicio de implementacao
 
-CURRENT_ENGINEERING_STATUS: aguardando_entrevista_inicial
-CURRENT_DOCUMENTATION_STATUS: classificacao_inicial_registrada
+CURRENT_ENGINEERING_STATUS: entrevista_inicial_registrada_com_pendencia_de_confirmacao
+CURRENT_DOCUMENTATION_STATUS: requisitos_iniciais_e_arquitetura_base_registrados
 CURRENT_IMPLEMENTATION_STATUS: nao_iniciada
 
-NEXT_EXPECTED_STEP: executar_entrevista_inicial_de_engenharia
+NEXT_EXPECTED_STEP: confirmar_alvo_dotnet_e_autorizar_implementacao_inicial
 
 CONTINUITY_RULE:
 A IA nao deve encerrar o fluxo apenas recomendando a proxima etapa.

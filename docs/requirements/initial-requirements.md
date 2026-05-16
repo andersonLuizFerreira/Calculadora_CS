@@ -15,8 +15,12 @@ PROJECT_MAIN_BRANCH: main
 
 ## Requisitos funcionais
 
-Ainda nao definidos. Devem ser levantados na entrevista inicial do projeto.
+Requisitos iniciais registrados em:
+
+```text
+docs/requirements/calculator-requirements.md
+```
 
 ## Regras de negocio
 
-Ainda nao definidas. Nao registrar regras de negocio sem confirmacao humana.
+Regras detalhadas de comportamento ainda precisam ser confirmadas para porcentagem, memoria e historico.

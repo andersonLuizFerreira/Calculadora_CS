@@ -25,3 +25,7 @@ Validado em 2026-05-15 por verificacao local de existencia dos caminhos obrigato
 ## Classificacao
 
 Atualizado em 2026-05-16 para registrar que a classificacao inicial foi concluida como projeto simples desktop Windows Forms em C#/.NET, com autonomia local baixa.
+
+## Engenharia inicial
+
+Atualizado em 2026-05-16 para registrar requisitos iniciais da calculadora, ambiente .NET disponivel e criterios preliminares de validacao.

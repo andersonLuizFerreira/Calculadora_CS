@@ -6,7 +6,11 @@ Documento inicial criado durante o bootstrap da AI_WORKBENCH.
 
 ## Arquitetura do produto
 
-Ainda nao definida.
+Arquitetura inicial registrada em:
+
+```text
+docs/architecture/calculator-architecture.md
+```
 
 ## Restricao de governanca
 
