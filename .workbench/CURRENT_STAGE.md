@@ -2,27 +2,37 @@
 
 ## Etapa atual
 
-- Etapa: bootstrap inicial
+- Etapa: entrevista inicial concluída
 - Status: concluído
 
-## O que foi concluído
+## O que foi consolidado
 
-- validação do repositório remoto;
-- confirmação da branch principal;
-- criação da estrutura mínima `.workbench`;
-- criação dos arquivos iniciais de governança;
-- registro do contexto mínimo inicial.
+- objetivo do projeto definido;
+- plataforma definida;
+- tecnologia definida;
+- escopo funcional inicial definido;
+- classificação mínima do workflow registrada;
+- ramificação WB recomendada registrada.
+
+## Definições aprovadas
+
+- tipo: aplicação desktop;
+- UI: Windows Forms;
+- linguagem: C#;
+- runtime: .NET Framework 4.8;
+- escopo: calculadora simples de quatro operações;
+- objetivo adicional: validar o fluxo operacional da AI_WORKBENCH.
 
 ## Próxima etapa
 
-Entrevista inicial do projeto.
+ETAPA 01 — Estrutura inicial da solução WinForms.
 
 ## Restrições atuais
 
-Até a conclusão da entrevista inicial:
+Até a conclusão da ETAPA 01:
 
-- não definir arquitetura funcional;
-- não implementar features;
-- não criar camadas técnicas;
-- não assumir tecnologias;
-- não expandir escopo.
+- não expandir escopo;
+- não adicionar features científicas;
+- não criar arquitetura complexa;
+- não adicionar persistência;
+- não criar múltiplos projetos sem necessidade.
