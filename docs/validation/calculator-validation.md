@@ -8,11 +8,11 @@
 - deve calcular multiplicacao corretamente;
 - deve calcular divisao corretamente;
 - deve impedir ou sinalizar divisao por zero;
-- deve calcular porcentagem conforme comportamento aprovado;
+- deve calcular porcentagem conforme comportamento padrao de calculadora Windows;
 - deve calcular raiz quadrada de valores validos;
 - deve impedir ou sinalizar raiz quadrada de numero negativo;
 - deve executar M, M+, M- e MC conforme comportamento aprovado;
-- deve registrar calculos no historico;
+- deve registrar os 4 calculos mais recentes no historico visual;
 - deve exibir resultados com ate 10 casas decimais.
 ```
 
@@ -25,11 +25,23 @@
 - comportamento de erro deve ser verificavel pela interface.
 ```
 
-## Pendencias de validacao
+## Validacoes confirmadas para o primeiro incremento
 
 ```text
-- definir comportamento exato de porcentagem;
-- definir comportamento exato do botao M;
-- definir persistencia ou nao do historico;
-- confirmar target framework antes da implementacao.
+- target framework: net9.0-windows;
+- memoria: MR, M+, M-, MC;
+- historico: 4 linhas visuais durante a sessao;
+- persistencia de historico: fora do escopo.
+```
+
+## Evidencia de validacao
+
+Validado em 2026-05-16:
+
+```text
+dotnet test Calculadora_CS.sln
+Resultado: 6 testes aprovados, 0 falhas
+
+dotnet build Calculadora_CS.sln --no-restore
+Resultado: build concluido com 0 erros e 0 avisos
 ```

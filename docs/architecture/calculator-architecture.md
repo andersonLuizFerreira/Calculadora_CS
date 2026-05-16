@@ -7,7 +7,7 @@ APPLICATION_TYPE: Desktop
 UI: Windows Forms
 LANGUAGE: C#
 RUNTIME_AVAILABLE_ON_SYSTEM: .NET SDK 9.0.314
-RECOMMENDED_TARGET_FRAMEWORK: net9.0-windows
+TARGET_FRAMEWORK: net9.0-windows
 ```
 
 ## Separacao de responsabilidades
@@ -22,7 +22,7 @@ Calculator Core
 Responsavel por operacoes matematicas, memoria, arredondamento/exibicao e validacoes numericas.
 
 History
-Responsavel por armazenar a lista de calculos exibida ao usuario.
+Responsavel por armazenar as 4 linhas mais recentes exibidas ao usuario durante a sessao.
 ```
 
 ## Namespaces iniciais propostos
@@ -43,6 +43,7 @@ CalculadoraCS.UI
 - tratar raiz quadrada de numero negativo;
 - aplicar exibicao com ate 10 casas decimais;
 - manter historico desacoplado da UI quando possivel.
+- implementar memoria com MR, M+, M- e MC no core.
 ```
 
 ## Build
@@ -54,4 +55,4 @@ Usar SDK .NET disponivel no sistema. Foi detectado:
 9.0.314
 ```
 
-O alvo recomendado para implementacao inicial e `net9.0-windows`, pendente de confirmacao humana.
+O alvo confirmado para implementacao inicial e `net9.0-windows`.
